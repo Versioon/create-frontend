@@ -80,7 +80,7 @@
     "prettier": "^2.4.0",
     "readline-sync": "^1.4.10",
     "resolve-url-loader": "^4.0.0",
-    "sass": "^1.40.1",
+    "sass": "~1.77.5",
     "sass-loader": "^14.0",
     "semver": "^7.3.5",
     "serialize-javascript": "^6.0.0",
