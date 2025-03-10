@@ -9,7 +9,7 @@
   "license": "MIT",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "e2e": "jest --testMatch=\"**/?(*.)(e2e).js?(x)\" --runInBand --detectOpenHandles"
+    "e2e": "jest --testMatch=\"**/?(*.)(e2e).js?(x)\" --runInBand --detectOpenHandles --forceExit"
   },
   "bin": {
     "create-frontend": "bin/create-frontend.js",
@@ -61,7 +61,6 @@
     "eslint-webpack-plugin": "^3.0.1",
     "eval": "^0.1.6",
     "execa": "^5.1.1",
-    "fibers": "^5.0.0",
     "file-loader": "^6.2.0",
     "fs-extra": "^10.0.0",
     "fs-readdir-recursive": "^1.1.0",
@@ -82,7 +81,7 @@
     "readline-sync": "^1.4.10",
     "resolve-url-loader": "^4.0.0",
     "sass": "^1.40.1",
-    "sass-loader": "^12.1.0",
+    "sass-loader": "^14.0",
     "semver": "^7.3.5",
     "serialize-javascript": "^6.0.0",
     "start-server-webpack-plugin": "^2.2.5",
